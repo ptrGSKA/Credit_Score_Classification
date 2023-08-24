@@ -1,0 +1,268 @@
+########## Report for the model: LogisticRegression() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.66      0.78      0.72     13293
+         1.0       0.73      0.67      0.70     13294
+         2.0       0.58      0.51      0.54     13294
+
+    accuracy                           0.66     39881
+   macro avg       0.66      0.66      0.65     39881
+weighted avg       0.66      0.66      0.65     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.6572804092174218
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: SGDClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.47      0.97      0.63     13293
+         1.0       0.73      0.64      0.68     13294
+         2.0       0.61      0.03      0.05     13294
+
+    accuracy                           0.55     39881
+   macro avg       0.60      0.55      0.46     39881
+weighted avg       0.60      0.55      0.46     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.5458739750758507
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: RidgeClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.65      0.82      0.73     13293
+         1.0       0.72      0.73      0.73     13294
+         2.0       0.64      0.47      0.54     13294
+
+    accuracy                           0.67     39881
+   macro avg       0.67      0.67      0.67     39881
+weighted avg       0.67      0.67      0.67     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.6740302399638926
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: KNeighborsClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.74      0.95      0.83     13293
+         1.0       0.76      0.86      0.81     13294
+         2.0       0.82      0.47      0.60     13294
+
+    accuracy                           0.76     39881
+   macro avg       0.77      0.76      0.74     39881
+weighted avg       0.77      0.76      0.74     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.7603370025826834
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: DecisionTreeClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.82      0.82     13293
+         1.0       0.77      0.77      0.77     13294
+         2.0       0.71      0.72      0.71     13294
+
+    accuracy                           0.77     39881
+   macro avg       0.77      0.77      0.77     39881
+weighted avg       0.77      0.77      0.77     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.7670068453649608
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: GaussianNB() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.84      0.72     13293
+         1.0       0.72      0.75      0.73     13294
+         2.0       0.68      0.43      0.53     13294
+
+    accuracy                           0.67     39881
+   macro avg       0.68      0.67      0.66     39881
+weighted avg       0.68      0.67      0.66     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.6744314335147062
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: BernoulliNB() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.84      0.70     13293
+         1.0       0.70      0.75      0.73     13294
+         2.0       0.63      0.34      0.44     13294
+
+    accuracy                           0.64     39881
+   macro avg       0.65      0.64      0.62     39881
+weighted avg       0.65      0.64      0.62     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.6441162458313483
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: AdaBoostClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.72      0.84      0.78     13293
+         1.0       0.75      0.71      0.73     13294
+         2.0       0.70      0.62      0.66     13294
+
+    accuracy                           0.73     39881
+   macro avg       0.73      0.73      0.72     39881
+weighted avg       0.73      0.73      0.72     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.7256086858403751
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: GradientBoostingClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.75      0.86      0.80     13293
+         1.0       0.80      0.75      0.77     13294
+         2.0       0.74      0.67      0.71     13294
+
+    accuracy                           0.76     39881
+   macro avg       0.76      0.76      0.76     39881
+weighted avg       0.76      0.76      0.76     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.7622928211429001
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: ExtraTreesClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.94      0.90     13293
+         1.0       0.87      0.89      0.88     13294
+         2.0       0.87      0.78      0.82     13294
+
+    accuracy                           0.87     39881
+   macro avg       0.87      0.87      0.87     39881
+weighted avg       0.87      0.87      0.87     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.8686592613023746
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: MLPClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.72      0.82      0.77     13293
+         1.0       0.77      0.75      0.76     13294
+         2.0       0.68      0.60      0.64     13294
+
+    accuracy                           0.73     39881
+   macro avg       0.73      0.73      0.72     39881
+weighted avg       0.73      0.73      0.72     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.726310774554299
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: HistGradientBoostingClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.88      0.84     13293
+         1.0       0.83      0.79      0.81     13294
+         2.0       0.77      0.73      0.75     13294
+
+    accuracy                           0.80     39881
+   macro avg       0.80      0.80      0.80     39881
+weighted avg       0.80      0.80      0.80     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.8008575512148642
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: VotingClassifier(estimators=[('RF', RandomForestClassifier()),
+                             ('KNN', KNeighborsClassifier()),
+                             ('HIST', HistGradientBoostingClassifier())]) ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.94      0.87     13293
+         1.0       0.86      0.86      0.86     13294
+         2.0       0.87      0.73      0.80     13294
+
+    accuracy                           0.84     39881
+   macro avg       0.85      0.84      0.84     39881
+weighted avg       0.85      0.84      0.84     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.8437601865550012
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
+########## Report for the model: BaggingClassifier() ########## 
+ 
+------- Classification report -------- 
+
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.90      0.87     13293
+         1.0       0.84      0.85      0.84     13294
+         2.0       0.82      0.75      0.78     13294
+
+    accuracy                           0.83     39881
+   macro avg       0.83      0.83      0.83     39881
+weighted avg       0.83      0.83      0.83     39881
+-------Accuracy Score -------- 
+
+Accuracy score: 0.8330533336676613
+
+ -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#- 
+
