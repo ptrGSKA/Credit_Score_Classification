@@ -6,3 +6,7 @@ allows one to distinguish between "good", "standard" and "bad" credit.
 A robust and accurate model can help to predict an individual credibility and eligibility for loans and other financial serives.
 
 The goal is to build a multi -class classification model capable of accurately predict credit score categories.
+
+# Description
+
+# File Structure

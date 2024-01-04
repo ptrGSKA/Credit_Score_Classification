@@ -1,2 +1,4 @@
 # Do not track these files in my repo
-
+credit_score_classification.code-workspace
+final_model_xgb.sav
+final_model_xtc.sav
